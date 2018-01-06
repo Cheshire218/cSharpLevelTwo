@@ -1,4 +1,6 @@
 .vs/
 .git/
-EmployersAndDepartments/bin/
-EmployersAndDepartments/obj/
+EmployersAndDepartments/EmployersAndDepartments/bin/
+EmployersAndDepartments/EmployersAndDepartments/obj/
+WebApplicationApi/WebApplicationApi/bin/
+WebApplicationApi/WebApplicationApi/obj/

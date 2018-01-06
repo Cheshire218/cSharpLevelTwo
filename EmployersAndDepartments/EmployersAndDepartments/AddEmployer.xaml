@@ -1,0 +1,24 @@
+﻿<Window x:Class="EmployersAndDepartments.AddEmployer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployersAndDepartments"
+        mc:Ignorable="d"
+        Title="AddEmployer" Height="374.318" Width="300">
+    <Grid Margin="0,0,0,14">
+        <TextBlock HorizontalAlignment="Left" Margin="27,10,0,0" TextWrapping="Wrap" Text="Фамилия:" VerticalAlignment="Top"/>
+        <TextBox x:Name="newEmpLastName" HorizontalAlignment="Left" Height="23" Margin="27,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,56,0,0" TextWrapping="Wrap" Text="Имя:" VerticalAlignment="Top"/>
+        <TextBox x:Name="newEmpName" HorizontalAlignment="Left" Height="23" Margin="27,77,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,100,0,0" TextWrapping="Wrap" Text="Отчество:" VerticalAlignment="Top"/>
+        <TextBox x:Name="newEmpSecondName" HorizontalAlignment="Left" Height="23" Margin="27,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,147,0,0" TextWrapping="Wrap" Text="Возраст:" VerticalAlignment="Top"/>
+        <TextBox x:Name="newEmpAge" HorizontalAlignment="Left" Height="23" Margin="27,168,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,191,0,0" TextWrapping="Wrap" Text="Зарплата:" VerticalAlignment="Top"/>
+        <TextBox x:Name="newEmpSalary" HorizontalAlignment="Left" Height="23" Margin="27,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+
+        <Button Content="Ок" HorizontalAlignment="Left" Margin="183,299,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsDefault="True"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="27,299,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="Button_Click_1"/>
+    </Grid>
+</Window>
